@@ -17,12 +17,11 @@ x = 0
 # En cada iteracion del bucle debe incrementar el valor de "x" en "2"
 # e imprimir en pantalla el resultado de X (antes de incrementar) con print
 
-while x < 10 and x == 6:
-    # incrementar x en 2
+while x < 10 and x != 6:
        
     print("el resultado de x=", x)
 
-    x *= 2 
+    x += 2 
 
 
 
@@ -32,5 +31,15 @@ while x < 10 and x == 6:
 # "while" consultar si <x es igual a 6>, y en ese caso realizar una interrupción del bucle
 # En cada iteracion del bucle debe incrementar el valor de "x" en "2"
 # e imprimir en pantalla el resultado de X (antes de incrementar) con print
+
+x =0
+
+while x < 10:
+    if x == 6:
+        print(" el valor de x es :", x)
+        break
+
+    x +=2 
+
 
 print("terminamos!")
